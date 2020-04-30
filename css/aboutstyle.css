@@ -1,0 +1,422 @@
+body {
+    background-color: #ffffff;
+    padding-top: 140px;
+    height: 1000px;
+    min-width: 750px;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(255, 255, 255, 80%);
+    height: 113px;
+}
+
+.flexChildNav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 70%;
+}
+
+/* tab navigation */
+
+nav {
+    display: flex;
+    align-items: center;
+    
+}
+
+#flexTabs {
+    display: flex;
+}
+
+
+.navLinks {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .5px ;
+    color: #313131;
+    list-style: none;
+    
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: #313131;
+    margin-right: 30px;
+   
+}
+.navLinks a {
+    transition: all 0.3s ease 0;
+}
+.navLinks a:hover {
+    color: #d63f48;
+}
+
+/*logo*/
+
+.logoNav {
+    cursor: pointer;
+    display: flex;
+    align-content: center;
+    
+}
+
+/* Icons */
+
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 30%;
+
+}
+
+.social {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    margin: 4px;
+}
+
+/* About Hero */
+
+#hero {
+    margin: 25px;
+    display: grid;
+    min-height: 450px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "aboutText aboutText aboutImage"
+    "aboutText aboutText aboutImage"
+    ;
+
+}
+
+#aboutText {
+    grid-area: aboutText;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#aboutText h1 {
+    font-family:'Raleway', sans-serif;
+    font-size: 31px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: -20px;
+}
+
+#aboutText p {
+    font-family:'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+#aboutImage {
+    grid-area: aboutImage;
+    margin-right: 150px;
+    margin-left: auto;
+}
+
+.heroBox img {
+    width: 285px;
+    height: 370px;
+}
+
+#project1Button a {
+    text-decoration: none;
+    color: #313131;
+}
+
+#downloadButton {
+   box-shadow: 0px 3px 6px #00000029;
+   border-radius: 35px;
+   border: 1px solid #FD5863;
+   text-align: center;
+   text-decoration: none;
+   font-family:'Raleway', sans-serif; 
+   font-size: 20px;
+   font-weight: 500;
+   padding: 15px 40px;
+   width: 178px;
+   margin-top: 20px;
+   margin-left: 14px;
+
+}
+
+#downloadButton a {
+    text-decoration: none;
+     color: #313131;
+}
+
+#downloadButton {
+    transition-duration: 0.4s;
+  }
+  
+  #downloadButton:hover {
+    background-color: #ffffff;
+    color: #343434;
+    border: 3px solid #fd5863;
+  }
+
+  hr {
+    border-color: #d63f48;
+    border-style: solid;
+    height: 1.5px;
+    background-color: #d63f48;
+    border-radius: 20%;
+  }
+
+  #aboutTextLine {
+      width: 150px;
+      height: 1px;
+      margin-top: 30px;
+  }
+
+  /* Skills */
+
+  .subtopicTitle {
+      text-align: center;
+      background-color: #ffffff;
+      margin-top: 25px;
+      padding-top:10px;
+  }
+
+  #skillsTextLine {
+      width: 905px;
+  }
+
+  #skills {
+    margin: 20px;
+    display: grid;
+    min-height: 450px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 105px 1fr 350px;
+    grid-template-areas: 
+    "researchIcon designIcon devIcon toolsIcon"
+    "TopicA TopicB TopicC TopicD"
+    "iconSkills iconSkills iconSkills iconSkills"
+    ;
+    background-color: #ffffff;
+    margin-top: 30px;
+  }
+
+  #researchIcon {
+      grid-area: researchIcon;
+  }
+
+  #designIcon {
+    grid-area: designIcon;
+  }
+
+  #devIcon {
+      grid-area: devIcon;
+  }
+
+  #toolsIcon {
+      grid-area: toolsIcon;
+  }
+
+    #TopicA {
+        grid-area: TopicA;
+
+  }
+    #TopicB {
+        grid-area: TopicB;
+      
+}
+    #TopicC {
+        grid-area: TopicC;
+      
+}
+    #TopicD {
+        grid-area: TopicD;
+      
+}
+
+#iconSkills {
+    grid-area: iconSkills;
+    margin: 0 auto;
+}
+
+.skillsIcon {
+    margin: 0 auto;
+}
+
+.skillTopic h3 {
+    text-align: center;
+    font-family:'Raleway', sans-serif; 
+   font-size: 20px;
+   font-weight: 600;
+}
+
+#iconSkills {
+    margin: 0 auto;
+}
+
+.skillTopic li {
+    list-style: none;
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+#researchList {
+    margin-left: 30px;
+}
+#designList {
+    margin-left: 5px;
+}
+#devList {
+    margin-left: 60px;
+}
+#toolList {
+    margin-left: 60px;
+}
+
+#skillsIconLine {
+    width: 302px;
+    margin-left: 520px;
+    margin-bottom: 45px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1a2d35 ;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: 0px;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer logo */
+
+footer img {
+    margin-right: 60px;
+    width: fit-content;
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
+
+/* text div */
+
+footer div {
+    margin: 0 auto;
+    width: 33.3%;
+    text-align: center;
+    color: #D6D6D6;
+    font-family:'Open Sans', sans-serif;
+    font-size:25px;
+    font-weight: 400;
+}
+
+footer div h4 {
+    font-size: 15px;
+    font-weight: 600px;
+    font-family:'Open Sans', sans-serif;
+}
+
+/* buttons */
+
+.linkButtonEmail {
+    color: #D6D6D6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 300px;
+}
+
+.linkButtonEmail {
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 35px;
+    background-color: #d63f48;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Raleway', sans-serif; 
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px 50px;
+ }
+
+ .linkButtonEmail {
+    transition-duration: 0.4s;
+ }
+
+ .linkButtonEmail:hover {
+    opacity: .8;
+ }
+
+
+/* Footer small text */
+
+footer div, h5 {
+    font-size: 12px;
+    font-weight: 400px;
+}
+
+/* side links */
+
+
+footer ul {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding-right: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #D6D6D6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+
+}
+
+footer ul a:hover {
+    transition-duration: 0.4s;
+    color: #d63f48;
+}
+
+footer li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+/* Style the header: fixed position (always stay at the top) */
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  
+  /* The progress container (grey background) */
+  .progress-container {
+    width: 100%;
+    height: 8px;
+    background: #f1f1f1;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 8px;
+    background: #d63f48;
+    width: 0%;
+  }

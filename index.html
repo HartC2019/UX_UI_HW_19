@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="flexHeader">
+        <div class="flexChildNav">
+            <img class="logoNav" src="images/Nav_Logo_line.svg" alt="logo">
+        
+            <nav>
+                <ul id="flexTabs">
+                    <li class="navLinks" id="project"><a href="#">PROJECTS</a></li>
+                    <li class="navLinks" id="about"><a href="about.html">ABOUT</a></li>
+                    <li class="navLinks" id="resume"><a href="https://drive.google.com/file/d/1pgPiYox-EMUq0QvSeKTg77afCo886_OK/view?usp=sharing">RESUME</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="socialLinks flexHeaderItem">
+            <div id="linkedinNav">
+                <img class="social" src="images/045-linkedin.svg" alt="">
+            </div>
+            <div id="behanceNav">
+                <img class="social" src="images/048-behance.svg" alt="">
+            </div>   
+        </div>
+        <div class="header">
+            <div class="progress-container">
+              <div class="progress-bar" id="myBar"></div>
+            </div>
+          </div>
+    </header>
+
+    <section id="hero">
+        <div id="flexHero" >
+            <div class="flexHeroItem1">
+                <h1>Hello I am Chase Hart <br><br>
+                UX/UI Designer <br> based in Atlanta, GA</h1>
+
+                <div class="flexHeroItem button" id="aboutButton">
+                    <a class="linkButtonAbout"href="about.html">About Me</a>
+                </div>
+            </div>
+        
+            <div class="flexHeroItem2">
+                <img id="heroImage" src="images/Hero_image.svg" alt="animation">
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div id="projectTitle">
+            <h2>Featured Projects</h2>
+            <hr class="line1">
+        </div>
+        <div id="flexProject">
+            <div class="flexProjectItem" id="project1">
+                <div class="projectText" id="projectText1">
+                    <h3>Thrive App</h3>
+                    <p id="project1descrip">This project focused on user research, definition and ideation. The Thrive app is a mobile plant care application. 
+                    </p>
+                    <div id="project1Button">
+                        <a class="linkButtonProject"href="#">View Project</a>
+                    </div>
+                </div>
+                <div class="projectCover" id="projectImage1">
+                    <img class="projectPicture" src="images/smartmockups_k5x3yw18.jpg" alt="thrive mockup">
+                    <ul class="tags" id="tag1"> 
+                        <li id="t1">User Research</li>
+                        <li id="t2">Definition and Ideation</li>
+                        <li id="t3">Usability Testing</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flexProjectItem" id="project2">
+                <div class="projectText">
+                    <h3>Forest Service Redesign</h3>
+                    <p id="project2descrip">This project focused on the research of an existing website, information architecture, developing a style guide and producing a hi-fi prototype.  
+                    </p>
+                    <div id="project1Button">
+                        <a class="linkButtonProject"href="#">View Project</a>
+                    </div>
+                </div>
+                <div class="projectCover">
+                    <img class="projectPicture" src="images/smartmockups_k7jt4k6d.jpg" alt="forest service mockup">
+                    <ul class="tags"> 
+                        <li id="t4">UI Analysis</li>
+                        <li id="t5">Information Architecture</li>
+                        <li id="t6">Hi-Fi Protoype</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flexProjectItem" id="project3">
+                <div class="projectText">
+                    <h3 id="Title3">Atlanta Community Food Bank Redesign</h3>
+                    <p id="project3descrip">This project focused on a full responsive redesign of an existing website.  Including: user research, definition and ideation, information architecture, style guides and prototyping. 
+                    </p>
+                    <div id="project1Button">
+                        <a class="linkButtonProject"href="#">View Project</a>
+                    </div>
+                </div>
+                <div class="projectCover">
+                    <img class="projectPicture" src="images/smartmockups_k81tmh7w.jpg" alt="ACFB mockup">
+                    <ul class="tags" id="tag3"> 
+                        <li id="t7">Full Design Process</li>
+                        <li id="t8">Responsive Web Design</li>
+                        <li id="t9">Style Guide</li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="line2">
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <img src="images/FooterNav.svg" alt="logo">
+        <div>
+            <h4>I’d love to share my work with you and answer any questions you may have. <br><br>
+                Feel free to send me an email.</h4>
+                <a class="linkButtonEmail"href="#">Email Me</a>
+            <h6>Handcrafted since ‘20 <br><br> Copyright Chase Hart. All rights reserved. </h6>
+        </div>
+        <ul>
+            <li><a href="https://drive.google.com/file/d/1pgPiYox-EMUq0QvSeKTg77afCo886_OK/view?usp=sharing">RESUME</a></li>
+            <li><a href="#">LINKEDIN</a></li>
+            <li><a href="#">BEHANCE</a></li>
+        </ul>
+    </footer>
+    
+</body>
+<script src="js/index.js"></script>
+</html>
